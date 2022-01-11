@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+
+
+    nav {
+      margin: 1px;
+      position: relative;
+      height: 40px;
+      background-color: lightgray;
+      border-radius: 12px;
+      font-size: 0;
+    }
+    nav a {
+      line-height: 50px;
+      height: 100%;
+      font-size: 15px;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      text-transform: uppercase;
+      text-align: center;
+      color: red;
+      cursor: cell;
+    }
+    
+    
+    nav .animation {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      z-index: 0;
+      transition: all .3s ease 0s;
+      border-radius: 6px;
+    }
+    nav a:nth-child(1) {
+      width: 100px;
+    }
+    nav a:nth-child(2) {
+      width: 110px;
+    }
+    nav a:nth-child(3) {
+      width: 100px;
+    }
+    
+    nav .start-home, a:nth-child(1):hover~.animation {
+      width: 100px;
+      left: 0;
+      background-color: turquoise;
+    }
+    nav .start-about, a:nth-child(2):hover~.animation {
+      width: 110px;
+      left: 100px;
+      background-color: lightsteelblue;
+      
+    }
+    nav .start-blog, a:nth-child(3):hover~.animation {
+      width: 100px;
+      left: 210px;
+      background-color: lightslategray;
+    }
+
+
+
+    {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+    }
+    
+    /* Remove extra left and right margins, due to padding in columns */
+    .row {margin: 0 -5px;}
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+      padding: 16px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+    
+    /* Responsive columns - one column layout (vertical) on small screens */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+
+
+  
+  
