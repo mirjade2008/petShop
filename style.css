@@ -1,11 +1,11 @@
 body {
     background-color:turquoise;
-    margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    margin top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   nav {
-    margin: 1px;
+    margin: 2px;
     position: relative;
     height: 40px;
     background-color: lightgray;
@@ -13,7 +13,7 @@ body {
     font-size: 0;
   }
   nav a {
-    line-height: 50px;
+    line-height: 40px;
     height: 100%;
     font-size: 15px;
     display: inline-block;
@@ -67,7 +67,7 @@ body {
 
 
 h1 {
-    margin: 0;
+    margin-top: 25px;
     text-align: left;
     color: red;
     font-family: bold;
@@ -84,7 +84,7 @@ h2{
   text-align: left;
   color: red;
   font-size: small;
-  
+  margin-bottom: 0px;
   
 }
 
@@ -93,7 +93,7 @@ h2{
 
 
 p {
-  margin: 15px;
+  margin-top: 50px;
   text-align: center;
   color: red;
   font-size: 25px;
@@ -104,14 +104,13 @@ p {
 
 
  .header {
-    margin: 15px;
+    margin: 0;
     text-align: left;
-    
-  
+    color: red;
     background-image: url("doggyShopping.jpg");
     background-repeat: no-repeat;
-    background-position: 0ch;
-    
+    background-position: 20% 30%;
+    background-color: teal;
   } 
 
   
@@ -121,120 +120,22 @@ p {
   background-color: turquoise;
   color: red;
   font-size: 20px;
-  margin: 0;
+  margin-top: 0;
   
 }
 
 
-.card-img-top {
-  width: 100%;
-  height: 30vh;
-  object-fit: contain;
-  }
-
-
-
-  .card {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-
-
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 
- 
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-
-
-
-
-
-
-
 
   
-  body {
-    background-color: powderblue;
+  .body {
+    background-color: teal;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
  
   
- 
+ .card {
+   display: inline-block;
+ }
+  
