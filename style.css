@@ -1,6 +1,6 @@
 body {
-    background-color:turquoise;
-    margin top: 0;
+    /* background-color:turquoise; */
+    margin-top: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
@@ -135,7 +135,11 @@ p {
   
  
   
- .card {
+ /* .card {
    display: inline-block;
- }
+ } */
   
+ .card {
+   display: flex;
+   flex-direction: row;
+ }
